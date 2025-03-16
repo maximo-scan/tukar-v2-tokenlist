@@ -8,12 +8,17 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write  # Tambahkan izin menulis
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}  # Pastikan token digunakan
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
@@ -36,15 +41,3 @@ jobs:
           git add .
           git commit -m "Auto-build tokenlist" || echo "No changes to commit"
           git push
-
-  auto-merge:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - name: Auto-Merge Pull Requests
-        uses: pascalgn/automerge-action@v0.15.6
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          mergeMethod: squash
-          approve: true
