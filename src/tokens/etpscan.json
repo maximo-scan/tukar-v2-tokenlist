@@ -1,0 +1,59 @@
+[
+    {
+        "name": "Wrapped ETP",
+        "address": "0xEBb641F0bed3A8e27742A0677ef2C8d823ECeCDA",
+        "symbol": "WETP",
+        "decimals": 18,
+        "chainId": 20256789,
+        "logoURI": "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
+    },
+    {
+        "name": "Uniswap",
+        "address": "0x94b0a4203AAdDC3f430838C9E383F366A53E0681",
+        "symbol": "UNI",
+        "decimals": 18,
+        "chainId": 20256789,
+        "logoURI": "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984/logo.png"
+    },
+    {
+        "name": "Decentralize USD",
+        "address": "0x0854Fd43944D10A09dA19F19BB283c1aa1b8700E",
+        "symbol": "USDD",
+        "decimals": 18,
+        "chainId": 20256789,
+        "logoURI": "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
+    },
+    {
+        "name": "0x Protocol",
+        "address": "0x79A0798D8b06b97fC1704C03edEB73525eC95AD2",
+        "symbol": "ZRX",
+        "decimals": 18,
+        "chainId": 20256789,
+        "logoURI": "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0xE41d2489571d322189246DaFA5ebDe1F4699F498/logo.png"
+    },
+    {
+        "name": "Sushi Swap",
+        "address": "0x4d7646B0Aa1591597d2709022FFD000fb2e3d5A2",
+        "symbol": "Sushi",
+        "decimals": 18,
+        "chainId": 20256789,
+        "logoURI": "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0x6B3595068778DD592e39A122f4f5a5cF09C90fE2/logo.png"
+    },
+    {
+        "name": "staked Tether USD",
+        "address": "0xD17879Bc1D9F30106Ed999ac85Eaf0a50edb68c5",
+        "symbol": "stUSDT",
+        "decimals": 6,
+        "chainId": 20256789,
+        "logoURI": "https://assets-cdn.trustwallet.com/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
+    },
+    {
+        "name": "TukarV2Core",
+        "address": "0x5607Ef082E4217a7FBDa77d539755193814DFE76",
+        "symbol": "TAR",
+        "decimals": 18,
+        "chainId": 20256789,
+        "logoURI": "https://raw.githubusercontent.com/maximo-scan/branding-kit/refs/heads/main/etpscan/445322.svg"
+    }
+    
+]
